@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Full-Screen Slideshow -->
+    <section id="slideshow">
+        <div class="slide" style="background-image: url('slide1.jpg');">
+            <div class="overlay">
+                <h1>Welcome to Our Events</h1>
+                <p>Discover, Explore, and Participate!</p>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('slide2.jpg');">
+            <div class="overlay">
+                <h1>it is gonna be crazziest ever!!!</h>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('slide3.jpg');">
+            <div class="overlay">
+                <h1>get set goooooooooo!!!!!!!!!!!!!!!!!!!!!</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Section -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <div class="event left">
+            <div class="event-details">
+                <h3>Event 1</h3>
+                <p>Description of Event 1. A day to learn and network.</p>
+                <p><strong>Date:</strong> 2024-12-15</p>
+                <p><strong>Time:</strong> 10:00 AM</p>
+                <p><strong>Venue:</strong> Hall 1</p>
+                <form action="main.php" method="POST">
+                    <input type="hidden" name="event_name" value="Event 1">
+                    <button type="submit" name="action" value="register" class="register-btn">Register</button>
+                    <button type="submit" name="action" value="remove" class="remove-btn">Remove</button>
+                </form>
+            </div>
+            <div class="event-image" style="background-image: url('event1.jpg');"></div>
+        </div>
+
+
+        <div class="event-details">
+            <h3>Event 1</h3>
+            <p>Description of Event 2. A day to learn marketing.</p>
+            <p><strong>Date:</strong> 2024-12-30</p>
+            <p><strong>Time:</strong> 10:00 AM</p>
+            <p><strong>Venue:</strong> Hall 2</p>
+            <form action="main.php" method="POST">
+                <input type="hidden" name="event_name" value="Event 2">
+                <button type="submit" name="action" value="register" class="register-btn">Register</button>
+                <button type="submit" name="action" value="remove" class="remove-btn">Remove</button>
+            </form>
+        </div>
+        <div class="event-image" style="background-image: url('event2.jpg');"></div>
+    </div>
+        <!-- Repeat similar structure for other events -->
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #333; color: #fff; text-align: center; padding: 20px;">
+        <p>&copy; 2024 Authentic Website. All Rights Reserved.</p>
+        <div class="social-icons" style="display: flex; justify-content: center; gap: 15px; margin-top: 10px;">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook" style="color: #fff; text-decoration: none; font-size: 24px; transition: transform 0.3s;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" style="width: 32px; height: 32px;">
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram" style="color: #fff; text-decoration: none; font-size: 24px; transition: transform 0.3s;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 32px; height: 32px;">
+            </a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" style="color: #fff; text-decoration: none; font-size: 24px; transition: transform 0.3s;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" alt="LinkedIn" style="width: 32px; height: 32px;">
+            </a>
+            <p>Contact: support@events.com | +91 12345 67890</p>
+        </div>
+    
+    </footer>
+</body>
+</html>
