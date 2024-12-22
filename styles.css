@@ -130,21 +130,3 @@ button {
 .remove-btn:hover {
     background-color: #c82333;
 }
-
-footer {
-    padding: 20px;
-    background-color: #333;
-    color: white;
-    text-align: center;
-}
-
-footer .social-media a {
-    color: white;
-    margin: 0 10px;
-    font-size: 1.5rem;
-    transition: color 0.3s ease;
-}
-
-footer .social-media a:hover {
-    color: #007bff;
-}
