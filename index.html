@@ -72,15 +72,6 @@
     </style>
 </head>
 <body>
-    <!-- Stopwatch Section -->
-    <section id="stopwatch">
-        <h1>Stylish Stopwatch</h1>
-        <h1 id="today"></h1>
-        <div id="time">00:00:00:00</div>
-        <button id="toggleButton" onclick="toggleTimer()">Start</button>
-        <button id="resetButton" onclick="reset()">Reset</button>
-    </section>
-
     <!-- Full-Screen Slideshow -->
     <section id="slideshow">
         <div class="slide" style="background-image: url('slide1.jpg');">
@@ -91,35 +82,23 @@
         </div>
         <div class="slide" style="background-image: url('slide2.jpg');">
             <div class="overlay">
-                <h1>it is gonna be crazziest ever!!!</h>
+                <h1>It is gonna be the craziest ever!!!</h1>
             </div>
         </div>
         <div class="slide" style="background-image: url('slide3.jpg');">
             <div class="overlay">
-                <h1>get set goooooooooo!!!!!!!!!!!!!!!!!!!!!</h1>
+                <h1>Get set goooooooooo!!!!!!!!!!!!!!!!!!!!!</h1>
             </div>
         </div>
     </section>
 
-    <!-- Event Section -->
-    <section id="events">
-        <h2>Upcoming Events</h2>
-        <div class="event left">
-            <div class="event-details">
-                <h3>Event 1</h3>
-                <p>Description of Event 1. A day to learn and network.</p>
-                <p><strong>Date:</strong> 2024-12-15</p>
-                <p><strong>Time:</strong> 10:00 AM</p>
-                <p><strong>Venue:</strong> Hall 1</p>
-                <form action="main.php" method="POST">
-                    <input type="hidden" name="event_name" value="Event 1">
-                    <button type="submit" name="action" value="register" class="register-btn">Register</button>
-                    <button type="submit" name="action" value="remove" class="remove-btn">Remove</button>
-                </form>
-            </div>
-            <div class="event-image" style="background-image: url('event1.jpg');"></div>
-        </div>
-        <!-- Repeat similar structure for other events -->
+    <!-- Stopwatch Section -->
+    <section id="stopwatch">
+        <h1>Stylish Stopwatch</h1>
+        <h1 id="today"></h1>
+        <div id="time">00:00:00:00</div>
+        <button id="toggleButton" onclick="toggleTimer()">Start</button>
+        <button id="resetButton" onclick="reset()">Reset</button>
     </section>
 
     <!-- Footer -->
